@@ -1,1 +1,0 @@
-alert('good time for it');
