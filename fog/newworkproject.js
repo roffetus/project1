@@ -5,11 +5,12 @@ const personalMovieDB = {
       actors: {},
       genres: [],
       pravit: false
-};
+}
+
+      for(let i =0;i<2;i++){
 const a = prompt('one of the last movies i watched?',''),
-      b = prompt('how much would you rate it?',''),
-      c = prompt('one of the last movies i watched?',''),
-      d = prompt('how much would you rate it?','');
-      personalMovieDB.movies[a]= b;
-      personalMovieDB.movies[c]= d;
+      b = prompt('how much would you rate it?','');
+personalMovieDB.movies[a]= b;
+
+      }
       console.log (personalMovieDB);
